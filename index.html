@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Add your custom CSS styles here */
+    .choices li {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #F7E9F2;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .choices li:hover {
+      background-color: #F9E7FF;
+    }
+    .choices li.selected {
+      background-color: #FFC6E0;
+    }
+    .choices li.correct {
+      background-color: #C4F1F9;
+    }
+    .choices li.incorrect {
+      background-color: #FFDDE5;
+    }
+  </style>
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Coding Quiz</h1>
+    <div id="question-container">
+      <h2 id="question"></h2>
+      <ul id="choices" class="choices"></ul>
+    </div>
+    <div id="timer-container">
+      Time Remaining: <span id="timer"></span>
+    </div>
+    <div id="score-container">
+      Score: <span id="score">0</span>
+    </div>
+    <div id="result-container">
+      <input type="text" id="initials" placeholder="Enter initials">
+      <button id="save-btn">Save Score</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
