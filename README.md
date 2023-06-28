@@ -2,14 +2,23 @@
 This is a timed quiz application that tests your knowledge of JavaScript fundamentals. You will be presented with a series of multiple-choice questions and you need to select the correct answer within the given time limit. After completing the quiz, you can save your initials and score to compare with your peers.
 
 # Table of Contents
+
 # Features
+
 # Screenshot
+
 # Getting Started
+
 # Usage
+
 # Customization
+
 # Contributing
+
 # License
+
 # Features
+
 Multiple-choice questions on JavaScript fundamentals.
 Timed quiz with countdown timer.
 Display of current score during the quiz.
@@ -44,11 +53,14 @@ You can view your score and compare it with your peers.
 Customization
 You can customize the quiz by modifying the following aspects:
 
-# Questions: You can add or modify the questions in the questions array in the script.js file. Each question object should have a question, choices, and correctAnswer property.
+# Questions: 
+You can add or modify the questions in the questions array in the script.js file. Each question object should have a question, choices, and correctAnswer property.
 
-# Styling: You can customize the CSS styles by modifying the styles.css file. Feel free to change the colors, fonts, spacing, or any other visual aspect to match your preferences.
+# Styling: 
+You can customize the CSS styles by modifying the styles.css file. Feel free to change the colors, fonts, spacing, or any other visual aspect to match your preferences.
 
-# Timer Duration: You can change the timer duration by modifying the timeRemaining variable in the script.js file. By default, the timer is set to 60 seconds.
+# Timer Duration: 
+You can change the timer duration by modifying the timeRemaining variable in the script.js file. By default, the timer is set to 60 seconds.
 
 # Contributing
 Contributions to the JavaScript quiz application are always welcome! If you find any bugs, have suggestions for improvements, or want to add new features, please open an issue or submit a pull request.
